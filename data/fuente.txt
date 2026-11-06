@@ -1,0 +1,3 @@
+https://www.dane.gov.co/files/operaciones/PTF/anex-PTF-ProductividadLaboral-2025.xlsx
+SHA-256: b621fcb020a2c7b0dad1adb7f30e31ed5d3b1950a4a3b3fe86cdd090fc2027e3
+Cuadro 1 y Cuadro 2, filas 15 a 35. En Cuadro 2, F = capital, G = composición.

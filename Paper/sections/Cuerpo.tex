@@ -1,0 +1,83 @@
+\section{Introducción}
+
+Una economía puede producir más por hora trabajada y menos por persona empleada. Eso ocurre cuando las horas por persona caen lo suficiente para compensar el aumento de la producción por hora. La distinción importa al evaluar si Colombia ha logrado aumentar el valor agregado por cada hora de trabajo y si ese avance se ha traducido en mayor producción por persona.
+
+Este informe compara las dos medidas para el total nacional y descompone su crecimiento entre 2005 y 2025. Utiliza el anexo de productividad laboral del DANE bajo el enfoque de valor agregado, con series de volumen encadenadas y año de referencia 2015 \citep{daneAnexo,daneBol}. El año 2024 es provisional y 2025 es preliminar. Las tasas anuales se expresan como diferencias logarítmicas multiplicadas por 100. Los aportes se expresan en puntos porcentuales y se pueden sumar dentro de cada medida.
+
+\section{Productividad por hora y por persona}
+
+Si \(\mathrm{V}\) es el valor agregado real, \(\mathrm{H}\) son las horas totales y \(\mathrm{N}\) es el número de personas empleadas, la productividad por hora es \(\mathrm{V}/\mathrm{H}\) y la productividad por persona es \(\mathrm{V}/\mathrm{N}\). La diferencia entre sus tasas de crecimiento es la variación de las horas por persona:
+\[
+\Delta\ln(\mathrm{V}/\mathrm{N}) =
+\Delta\ln(\mathrm{V}/\mathrm{H}) + \Delta\ln(\mathrm{H}/\mathrm{N}).
+\]
+
+Al cierre de 2021, el valor agregado por persona había crecido más que el valor agregado por hora desde 2004. Entre 2021 y 2025, el primero cayó 4,6\% y el segundo aumentó 1,3\%. Al cierre de 2025, ambas medidas superaban su nivel de 2004, en 24,0\% por hora y 20,2\% por persona (Figura \ref{fig:serie}).
+
+\begin{figure}[H]
+\centering
+\caption{Productividad laboral por hora y por persona en Colombia}
+\label{fig:serie}
+\includegraphics[width=0.88\linewidth]{series.pdf}
+\fuente{Fuente: cálculos del CJC con base en \citet[cuadros 1 y 2]{daneAnexo}. Los índices parten de 100 en 2004 y acumulan las tasas logarítmicas.}
+\end{figure}
+
+\clearpage
+\section{Cómo se descompone la productividad laboral}
+
+La contabilidad del crecimiento del DANE separa el crecimiento del valor agregado real en tres términos: el aumento de los servicios laborales, el aumento de los servicios de capital y la PTF. Los dos primeros se ponderan por sus participaciones en el ingreso factorial. La PTF es la parte que queda después de descontar ambos aportes \citep{daneMet,daneBol}.
+
+Los servicios laborales combinan las horas de grupos definidos por edad, sexo y nivel educativo. Cada grupo se pondera por su participación en la remuneración laboral. La composición del trabajo es la diferencia entre el crecimiento de esos servicios y el de las horas totales. Los servicios de capital miden el flujo productivo de los activos. Su aporte a la productividad laboral depende de cuánto crecen esos servicios en relación con el número de horas o de personas.
+
+Sea \(\mathrm{g}_{\mathrm{X}}=100\Delta\ln(\mathrm{X})\), donde \(\mathrm{A}\) es la PTF, \(\mathrm{Q}\) es el índice de composición laboral y \(\mathrm{K}\) son los servicios de capital. Las ponderaciones del trabajo y del capital, \(\mathrm{s}_{\mathrm{L}}\) y \(\mathrm{s}_{\mathrm{K}}\), suman uno. Las dos descomposiciones son:
+\begin{align*}
+\mathrm{g}_{\mathrm{V}/\mathrm{H}} &=
+\mathrm{g}_{\mathrm{A}} + \mathrm{s}_{\mathrm{L}}\mathrm{g}_{\mathrm{Q}} +
+\mathrm{s}_{\mathrm{K}}(\mathrm{g}_{\mathrm{K}}-\mathrm{g}_{\mathrm{H}}),\\
+\mathrm{g}_{\mathrm{V}/\mathrm{N}} &=
+\mathrm{g}_{\mathrm{A}} + \mathrm{s}_{\mathrm{L}}\mathrm{g}_{\mathrm{Q}} +
+\mathrm{s}_{\mathrm{K}}(\mathrm{g}_{\mathrm{K}}-\mathrm{g}_{\mathrm{N}}) +
+\mathrm{s}_{\mathrm{L}}(\mathrm{g}_{\mathrm{H}}-\mathrm{g}_{\mathrm{N}}).
+\end{align*}
+
+La PTF y la composición laboral aportan lo mismo a ambos indicadores. La diferencia se reparte entre el aporte directo de las horas por persona, que lleva el peso del trabajo, y la diferencia entre las dos contribuciones del capital, que lleva el peso del capital. La suma de ambas diferencias devuelve el cambio total de las horas por persona. Por eso el aporte directo de las horas en el cuadro por persona es solo una parte de la brecha.
+
+\begin{table}[H]
+\centering
+\caption{Descomposición de la productividad laboral en 2025}
+\label{tab:2025}
+\input{Paper/sections/Cuadro2025}
+\fuente{Fuente: \citet[cuadros 1 y 2]{daneAnexo} y cálculos del CJC. Cifras preliminares. El aporte directo de las horas no aplica a la medida por hora.}
+\end{table}
+
+\clearpage
+\section{Qué explica el cambio desde 2022}
+
+Antes de la pandemia, ambas medidas crecieron por encima del 1\% anual en promedio. El principal aporte fue el de los servicios de capital, que sumaron 1,12 puntos por año a la productividad por hora y 1,17 puntos a la productividad por persona entre 2005 y 2019. La PTF restó 0,26 puntos al crecimiento de ambas medidas.
+
+\begin{table}[H]
+\centering
+\caption{Aportes al crecimiento de la productividad laboral por periodo}
+\label{tab:periodos}
+\input{Paper/sections/CuadroPeriodos}
+\fuente{Fuente: cálculos del CJC con base en \citet[cuadros 1 y 2]{daneAnexo}. Promedios simples de tasas logarítmicas anuales (\%) y aportes (pp por año). La suma puede diferir del total por redondeo.}
+\end{table}
+
+En 2020 y 2021, las dos medidas se movieron en direcciones opuestas. En 2020, la productividad por hora aumentó 4,77\% y la productividad por persona cayó 1,89\%. En 2021, la primera cayó 2,11\% y la segunda aumentó 5,69\%. El cambio de las horas por persona pasó de $-6{,}66$\% a 7,80\% entre esos dos años.
+
+Entre 2022 y 2025, el aporte del capital pasó a ser casi nulo por hora ($-0{,}04$ puntos por año) y negativo por persona ($-0{,}62$ puntos). A eso se sumó un aporte directo de las horas de $-0{,}91$ puntos por año en la medida por persona. En contraste, la PTF aportó 0,30 puntos a ambas medidas, un cambio de signo frente al promedio anterior a la pandemia. Su aporte no bastó para compensar las caídas del capital por persona y de las horas por persona.
+
+En 2025, el Cuadro \ref{tab:2025} muestra que la brecha de 0,96 puntos se repartió entre 0,66 puntos que restó el aporte directo de las horas y 0,30 puntos que restó el menor aporte del capital por persona frente al capital por hora. El resultado de ese año mantiene el patrón observado desde 2022, aunque los aportes de cada componente varían de un año a otro.
+
+\clearpage
+\section{Conclusiones}
+
+Entre 2005 y 2025, los servicios de capital aportaron más al crecimiento de la productividad laboral en Colombia que la composición del trabajo o la PTF. Desde 2022, el capital dejó de aportar al crecimiento por hora en promedio y restó al crecimiento por persona. La reducción de las horas por persona explica por qué el valor agregado por hora aumentó mientras el valor agregado por persona cayó.
+
+Para interpretar una cifra de productividad laboral, conviene precisar primero si se refiere a una hora trabajada o a una persona empleada. Establecer qué explica la caída de las horas por persona exige distinguir cambios dentro de grupos de trabajadores de cambios en la distribución del empleo entre esos grupos. La serie agregada no permite atribuir esa caída a cambios de jornada, regulación o composición del empleo.
+
+\subsection*{Nota sobre las fuentes}
+
+En el Cuadro 2 del anexo de productividad laboral, las columnas F y G se leen como capital por persona y composición laboral, respectivamente. Los rótulos publicados aparecen en el orden inverso. La columna G coincide con la composición laboral del Cuadro 1 en los 21 años. En 2025, la explicación del boletín para la medida por hora también identifica $-0{,}17$ puntos como composición. La reasignación conserva las tasas publicadas y la suma de sus aportes \citep{daneAnexo,daneBol,daneMet}.
+
+En 2010 y 2015, el aporte directo de las horas y la diferencia de los aportes del capital suman la brecha entre tasas, pero el cociente entre el aporte directo y la brecha queda fuera del intervalo entre cero y uno. Ese cociente no puede leerse como la participación del trabajo en esos dos años. Los promedios conservan los valores publicados.
