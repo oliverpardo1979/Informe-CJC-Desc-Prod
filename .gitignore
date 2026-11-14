@@ -4,3 +4,14 @@
 *.synctex.gz
 main.pdf
 __pycache__/
+
+# Microdatos empresariales y archivos locales
+*.rds
+*.dta
+*.sav
+*.pkl
+*.zip
+*.fls
+*.fdb_latexmk
+*.toc
+build/

@@ -1,0 +1,21 @@
+\section{Nota metodológica}
+Para la empresa $i$ en el año $t$, se define $\phi_{it}=\ln(VA^{real}_{it}/L_{it})$ y $s_{it}=L_{it}/\sum_j L_{jt}$. El indicador agregado es $\Phi_t=\sum_i s_{it}\phi_{it}$. Es un promedio ponderado de logaritmos, distinto de $\ln(\sum_i VA^{real}_{it}/\sum_i L_{it})$. Tampoco mide productividad por hora ni productividad total de los factores.
+
+Sean $S$ las empresas observadas en ambos extremos, $E$ las observadas solo al final y $X$ las observadas solo al inicio. Para cada grupo, $\Phi_{Gt}$ pondera la productividad por su empleo dentro del grupo, y $s_{Gt}$ es su participación en el empleo total. La identidad de \citet{melitz2015} es:
+\begin{align*}
+\Delta\Phi={}&\Delta\bar\phi_S+\Delta C_S\\
+&+s_{E2}(\Phi_{E2}-\Phi_{S2})+s_{X1}(\Phi_{S1}-\Phi_{X1}),
+\end{align*}
+donde $\bar\phi_{St}$ es la media sin ponderar de sobrevivientes y
+\[
+C_{St}=\sum_{i\in S}\left(\frac{s_{it}}{s_{St}}-\frac{1}{n_S}\right)(\phi_{it}-\bar\phi_{St}).
+\]
+Este término es la suma de productos de desviaciones (equivale a $n_S$ veces la covarianza con divisor $n_S$). El cambio de la covarianza expresa cambios en la asociación entre participación y productividad. No es un experimento que mantenga constante la productividad de cada empresa.
+
+\textbf{Unidad y muestra.} En EAM se agregan establecimientos por empresa mediante \texttt{NORDEMP} y se exige valor agregado, personal y activos fijos positivos. EAC y EAS ya utilizan empresas y requieren valor agregado y personal positivos. Antes de 2013 se restringe EAC al estrato de inclusión forzosa. El empleo determina las participaciones; no se extrapolan estos resultados a todas las empresas del país.
+
+\textbf{Precios.} EAM usa el IPP de producción nacional de la industria, promedio anual y base 2015. EAC y EAS usan deflactores implícitos construidos con agregados de cuentas departamentales, con cobertura más amplia que cada encuesta. Un deflactor común afecta el cambio de la media, pero cancela en las diferencias contemporáneas de entrada y salida y en la covarianza. La agregación de volúmenes encadenados y la correspondencia de actividades son limitaciones a revisar.
+
+\textbf{Entrada y salida.} Se definen por presencia en los extremos de la ventana. Incluyen cruces de umbrales, cambios de cobertura y posibles discontinuidades de identificación; no equivalen automáticamente a nacimientos y cierres. La EAM no incluye 2020 en el panel disponible. Las ventanas evitan ese año como extremo, sin identificar la trayectoria intermedia.
+
+\textbf{Validación y reproducción.} Los programas verifican que DOPD, GR y FHK sumen el cambio total con tolerancia $10^{-9}$. El código industrial incluye ejemplos sintéticos. El cuadro del boletín se genera directamente de las tablas de resultados y comprueba nuevamente el cierre. Estas validaciones verifican la implementación contable, no la calidad de identificación ni la robustez económica de los hallazgos.
