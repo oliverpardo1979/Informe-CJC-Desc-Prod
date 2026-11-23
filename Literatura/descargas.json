@@ -1,0 +1,43 @@
+[
+  {
+    "id": "melitz2015",
+    "procedencia_local": "Copia del artículo publicado ya disponible en el proyecto; conservada tras fallar la descarga directa.",
+    "url": "https://melitz.scholars.harvard.edu/sites/g/files/omnuum5906/files/melitz/files/melitz_et_al-2015-the_rand_journal_of_economics.pdf",
+    "fecha": "2026-11-22",
+    "archivo": "pdf\\melitz2015.pdf",
+    "sha256": "e9d08869a060b9c3f9187fe58b116761d88c1c8262239aee26c88b917f0dbbc0"
+  },
+  {
+    "id": "ifc2022",
+    "url": "https://www.ifc.org/content/dam/ifc/doc/mgrt/cpsd-chile.pdf",
+    "fecha": "2026-11-22",
+    "archivo": "pdf\\ifc2022.pdf",
+    "sha256": "ba5928cec6ee722ce3226ca31f250c2caf771fcbc368043310728a3cadf276a9"
+  },
+  {
+    "id": "cesar2020",
+    "url": "https://mpra.ub.uni-muenchen.de/110075/1/MPRA_paper_110075.pdf",
+    "fecha": "2026-11-22",
+    "archivo": "pdf\\cesar2020.pdf",
+    "sha256": "d51e7cfa8f7d6366f3e91fb6d2c5dba121f3361e51b9eaa4df4d41d788dfed2b"
+  },
+  {
+    "id": "wb2024",
+    "url": "https://documents1.worldbank.org/curated/en/099042525165519971/pdf/P177730-ca16ae09-fb9a-4f6a-a7f4-b88f1347d370.pdf",
+    "fecha": "2026-11-22",
+    "archivo": "pdf\\wb2024.pdf",
+    "sha256": "6b4dbc19f66aa803f9d3e44910d05a4617f52f6d1d0e697cdd268402530bf761"
+  },
+  {
+    "id": "imf2025",
+    "url": "https://www.imf.org/-/media/files/publications/reo/whd/2025/october/english/ch2.pdf",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "benhassine2019",
+    "url": "https://www.insee.fr/en/statistiques/fichier/4173215/507-508_Ben-Hassine-EN.pdf",
+    "fecha": "2026-11-22",
+    "archivo": "pdf\\benhassine2019.pdf",
+    "sha256": "cb6e79217a58917004772ec7e79d6d846a37b44440a56f616f9280e9194a0b13"
+  }
+]
